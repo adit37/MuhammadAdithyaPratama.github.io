@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+h1{
+		color: gray;
+		cursor: pointer;
+		transition: 0.5s;
+		opacity: 60%;
+		font-size: 50px;
+		padding: 5px;
+		background: white;
+		margin-bottom: 1px;
+		background-color: lightgray;
+		text-align: center;
+
+	}
+
+	h1:hover{
+		color: darkblue;
+		background-color: lightgray;
+		letter-spacing: 3px;
+		text-shadow: 1px 1px 4px gray;
+		opacity: 100%;
+	}
+h2{
+	text-align: center;
+	font-size: 20px;
+	}
+body{
+	font-family: "Arial";
+	background-color: lightgray;
+}
+img{
+	width: 3cm;
+	border-radius: 50%;
+	box-shadow: 1px 1px 4px gray;
+	padding: 5px;
+	background: white;
+	margin: 15px;
+	transition: 0.5s;
+	opacity: 75%;	 
+	}
+
+	img:hover{
+		transform: scale(1.2);
+		opacity: 100%;
+		box-shadow: 1px 1px 6px black;
+	}
+button{
+	font-family: "Poppins";
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	background-color: lightgreen;
+	color: black;
+	padding: 10px;
+	margin: 3px;
+	}
+div{
+	text-align: center;
+	}
+button:hover{
+	background-color: lightblue;
+	cursor: pointer;
+}	
+
