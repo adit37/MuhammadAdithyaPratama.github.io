@@ -29,6 +29,7 @@ h2{
 body{
 	font-family: "Arial";
 	background-image: url('../img/bg.jpg');
+	background-position: center;
 }
 img{
 	width: 3cm;
@@ -65,7 +66,7 @@ button:hover{
 }	
 
 table, th, td	{
-	border: 2px solid gray;
+	border: 2px solid black;
 	border-collapse: collapse;
 	color: #2F4F4F;
 }
@@ -81,11 +82,7 @@ table{
 th{
 	background-color: #00FA9A;
 }
-th:hover{
-	background-color: gray;
-	cursor: pointer;
-	transition: 0.5s;
-}
+
 td{
 	background-color: #1E90FF;
 }
@@ -93,4 +90,13 @@ td{
 td:hover{
 	background-color: gray;
 
+}
+.del-btn{
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 3px;
+}
+.del-btn:hover{
+	background-color: darkred;
 }
