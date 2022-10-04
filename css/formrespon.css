@@ -40,6 +40,12 @@ button:hover{
 }
 
 .isinih {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+
+.form {
     width: 100%;
     margin: auto;
     background-color: #eee;
@@ -114,5 +120,5 @@ input[type=file] {
   img{
     width: 100%;
   }
-
+}
 

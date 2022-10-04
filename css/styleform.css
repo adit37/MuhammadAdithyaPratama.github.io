@@ -6,7 +6,7 @@ li{
 
 body{
 	width: auto;
-	padding: 75px;
+	padding: 10px;
 	font-family: Arial;
 	background-color: white;
 }
@@ -42,16 +42,3 @@ button:hover{
 	background-color: lightblue;
 	cursor: pointer;
 }
-<<<<<<< Updated upstream
-@media only screen and (max-width: 768px) {
-
-    body {
-        box-sizing: border-box;
-	width: 100%;
-        background-color: gray;
-    }
-	.tb1{
-		width: 100%
-	}
-=======
->>>>>>> Stashed changes
