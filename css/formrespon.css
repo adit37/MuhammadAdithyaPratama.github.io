@@ -88,15 +88,9 @@ input[type=file] {
     font-size: 12px;
 }
 
-@media only screen and (min-width: 478px) and (max-width:600px){
-  .isinih{
-    width: 100%;
-  }
-  img{
-    width: 100%;
-  }
-}
+@media only screen and (max-width: 768px) {
 
+}
 @media only screen and (min-width: 768px){
   .isinih{
     width: 100%;
@@ -121,4 +115,52 @@ input[type=file] {
     width: 100%;
   }
 }
+=======
+    body {
+        width: 100%;
+    }
 
+    h1 {
+        font-size: 18px;
+    }
+>>>>>>> 5d4e31b364cd368ae10e6f38cb78b9f78ea909b7
+
+    h3 {
+        font-size: 13px;
+    }
+
+    ol li {
+        font-size: 12px;
+    }
+
+    .form {
+        padding: 15px;
+    }
+
+    .isinih {
+        font-size: 15px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    small {
+        font-size: 9px;
+    }
+
+    .inputdata, select {
+        padding: 5px 10px;
+        font-size: 10px;
+        margin: 5px 0 10px;
+    }
+
+    input[type=file] {
+        font-size: 10px;
+    }
+
+    button {
+       width: 100%;
+    }
+
+}
