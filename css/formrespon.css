@@ -85,7 +85,7 @@ input[type=file] {
 @media only screen and (max-width: 768px) {
 
     body {
-        box-sizing: border-box;
+        width: 75%;
     }
 
     h1 {
