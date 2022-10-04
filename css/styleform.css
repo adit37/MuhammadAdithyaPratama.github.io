@@ -42,6 +42,7 @@ button:hover{
 	background-color: lightblue;
 	cursor: pointer;
 }
+<<<<<<< Updated upstream
 @media only screen and (max-width: 768px) {
 
     body {
@@ -52,3 +53,5 @@ button:hover{
 	.tb1{
 		width: 100%
 	}
+=======
+>>>>>>> Stashed changes

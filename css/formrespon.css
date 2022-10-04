@@ -9,23 +9,19 @@ body{
 	padding: 75px;
 	font-family: Arial;
 	background-color: white;
+	align-items: center;
 }
 
 h1{
 	font-size: 35px;
+	text-align: center;
 }
 
-.tb1, .tb2, .tb3{
-	background-color: lightgreen;
-	padding: 1px 0;
-	border-radius: 5px;
-	width: auto;
-	height: 100%;
+img{
+	width: 100%;
 }
 
-.lg1, .lg2{
-	color: darkblue;
-}
+
 
 button{
 	font-family: "Poppins";
@@ -41,3 +37,82 @@ button{
 button:hover{
 	background-color: lightblue;
 	cursor: pointer;
+}
+
+.isinih {
+    width: 100%;
+    margin: auto;
+    background-color: #eee;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.inputdata, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.inputdata: hover{
+	background-color: green;
+}
+
+select {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+}
+input[type=file] {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 478px) and (max-width:600px){
+  .isinih{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .isinih{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px){
+  .isinih{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px){
+  .isinih{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
+
+
