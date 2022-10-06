@@ -106,3 +106,13 @@ body{
     width: 100%;
   }
 }
+@media only screen and (min-width: 478px) and (max-width:600px){
+  .bungkusan{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px){
+  .bungkusan{
+    width: 100%;
+  }
+}
