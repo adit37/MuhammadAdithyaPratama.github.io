@@ -99,27 +99,113 @@ body{
 @media only screen and (min-width: 478px) and (max-width:600px) and (orientation: portrait){
   .bungkusan{
     width: 100%;
-    height: auto;
+  }
+  .pala{
+    width: 100%;
+  }.bungkus{
+    width: 100%;
+  }
+  .home{
+    width: 100%;
+  }
+  .gambar{
+    width: 100%;
+  }
+  .isi{
+    width: 100%;
+  }
+  .menu{
+    width: 100%;
+  }
+  .aktif{
+    width: 100%;
+  }
+  .bungkus-1{
+    width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px){
-  .bungkusan{
+.bungkusan{
     width: 100%;
-    height: auto;
   }
-  
+  .pala{
+    width: 100%;
+  }.bungkus{
+    width: 100%;
+  }
+  .home{
+    width: 100%;
+  }
+  .gambar{
+    width: 100%;
+  }
+  .isi{
+    width: 100%;
+  }
+  .menu{
+    width: 100%;
+  }
+  .aktif{
+    width: 100%;
+  }
+  .bungkus-1{
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 992px){
-  .bungkusan{
+.bungkusan{
     width: 100%;
-    height: auto;
+  }
+  .pala{
+    width: 100%;
+  }.bungkus{
+    width: 100%;
+  }
+  .home{
+    width: 100%;
+  }
+  .gambar{
+    width: 100%;
+  }
+  .isi{
+    width: 100%;
+  }
+  .menu{
+    width: 100%;
+  }
+  .aktif{
+    width: 100%;
+  }
+  .bungkus-1{
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1200px){
-  .bungkusan{
+.bungkusan{
     width: 100%;
-    height: auto;
+  }
+  .pala{
+    width: 100%;
+  }.bungkus{
+    width: 100%;
+  }
+  .home{
+    width: 100%;
+  }
+  .gambar{
+    width: 100%;
+  }
+  .isi{
+    width: 100%;
+  }
+  .menu{
+    width: 100%;
+  }
+  .aktif{
+    width: 100%;
+  }
+  .bungkus-1{
+    width: 100%;
   }
 }
-
