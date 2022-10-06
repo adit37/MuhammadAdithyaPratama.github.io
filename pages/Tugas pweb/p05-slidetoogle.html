@@ -5,6 +5,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Slide Toogle</title>
 	<link rel="stylesheet" type="text/css" href="../../css/styleflip.css">
+	<style type="text/css">
+		@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+		button{
+			font-family: "Poppins";
+			text-align: center;
+			border: none;
+			border-radius: 5px;
+			background-color: lightgreen;
+			color: black;
+			padding: 10px;
+			margin-left: 10px;
+		}
+
+		.wd_bt{
+			margin-left: 600px;
+			margin-top: 50px;
+		}
+
+		button:hover{
+			background-color: lightblue;
+			cursor: pointer;
+	</style>
 </head>
 <body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -19,5 +42,10 @@ $(document).ready(function(){
 	<div class="button">Pencet Nih</div>
 	<div class="isi">Ciluk Baaaaa!!!</div>
 </div>
+
+	<div class="wd_bt">
+		<button onclick="document.location.href = '../tugaspweb.html'">Back</button>
+		<button onclick="document.location.href = '../../index.html'">Home</button>
+	</div>
 </body>
 </html>
