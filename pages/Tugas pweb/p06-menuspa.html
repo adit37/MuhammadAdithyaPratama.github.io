@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu SPA</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../css/stylemenuspa.css">
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $(".menu").click(function(){
+		        let menu_id = $(this).prop('id');
+		        let split = menu_id.split('_');
+		        let id = split[1];
+
+		        $(".menu").removeClass('aktif');
+		        $("#menu_"+id).addClass('aktif');
+
+		        $(".home").slideUp();
+		        $("#isi_1").slideUp();
+		        $("#isi_2").slideUp();
+		        $("#isi_3").slideUp();
+		        $("#isi_4").slideUp();
+		        $("#isi_"+id).slideToggle();
+		    });
+		});
+	</script>
+
+	<div class="pala">
+		<span class="menu" id="menu_1">Home</span>
+		<span class="menu" id="menu_2">About</span>
+		<span class="menu" id="menu_3">Contact</span>
+		<span class="menu" id="menu_4">Others</span>
+	</div>
+		<div class="home" id="isi_1">Ini Home. Ut ea in officia enim esse laboris labore laboris minim dolore. Adipisicing ea consequat duis fugiat oculpadolor ut ad ex irure exercitation est ut. Dolore ut esse nulla in labore velit excepteur sint tempor adipisicing sit.
+		</div>
+		<div class="isi" id="isi_2">Ini about. Ut ea in officia enim esse laboris labore laboris minim dolore. Adipisicing ea consequat duis fugiat do ea culpa dolor ut ad ex irure exercitation est ut. Dolore ut esse nulla in labore velit excepteur sint tempor adipisicing sit.
+		</div>
+		<div class="isi" id="isi_3">ini contact. Ut ea in officia enim esse laboris labore laboris minim dolore. Adipisicing ea consequat duis fugiat do ea culpa dolor ut ad ex irure exercitation est ut. Dolore ut esse nulla in labore velit excepteur sint tempor adipisicing sit.
+		</div>
+		<div class="isi" id="isi_4">ini others. Ut ea in officia enim esse laboris labore laboris minim dolore. Adipisicing ea consequat duis fugiat do ea culpa dolor ut ad ex irure exercitation est ut. Dolore ut esse nulla in labore velit excepteur sint tempor adipisicing sit.
+		</div>
+	<div class="btn-tbcls">
+		<button onclick="document.location.href = '../../index.html'">Back</button>
+	</div>
+</body>
+</html>
