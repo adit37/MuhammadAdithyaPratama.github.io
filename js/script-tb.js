@@ -20,6 +20,6 @@
 				let id = $(this).prop('id')
 				let rid = id.split('_')
 				let baris = rid[1]
-				$('#row-'+baris).slideUp()
+				$('#row-'+baris).fadeOut()
 			})
 		})
