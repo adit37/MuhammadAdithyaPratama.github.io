@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+body{
+	background-image: url("../img/bg-in.jpg");
+	margin-left: 250px;
+	margin-right: 250px;
+	font-family: Poppins;
+}
+
+.pala{
+	color: white;
+}
+
+.bungkus{
+	background-color: gray;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.bungkus-1{
+	background-color: gray;
+	text-align: center;
+	border-radius: 3px;
+	padding: 0.3px;
+	color: white;
+}
+
+.gambar{
+	text-align: center;
+
+}
+
+.menu{
+	padding: 10px;
+	color: white;
+}
+.menu:hover{
+	cursor: pointer;
+	background-color: black;
+}
+
+.aktif{
+	background-color: black;
+}
+
+.home{
+	background-color: white;
+	padding: 30px;
+	
+}
+
+
+.isi{
+	display: none;
+	background-color: white;
+	padding: 10px;
+}
+
+.link{
+	align-self: center;
+	padding: px;
+	margin-left: 365px;
+}
+
+
+#diri{
+	width: 4cm;
+	height: 5cm;
+	border-radius: 50%;
+	box-shadow: 1px 1px 4px gray;
+	padding: 5px;
+	background: white;
+	margin: 5px;
+	transition: 0.5s;
+}
+
+	#diri:hover{
+		transform: scale(1.1);
+		box-shadow: 1px 1px 6px black;
+	}
+
+#icon{
+	width: 1cm;
+}
+
+.garis{
+	color: green;
+	margin-top: -20px;
+	height: 20px;
+	width: 20px;
+}
+
+@media only screen and (min-width: 478px) and (max-width:600px){
+  .bungkusan{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .bungkusan{
+    width: 100%;
+  }
+  
+}
+@media only screen and (min-width: 992px){
+  .bungkusan{
+    width: 100%
+  }
+}
+@media only screen and (min-width: 1200px){
+  .bungkusan{
+    width: 100%;
+  }
+}
+
